@@ -1,5 +1,5 @@
-$tooltip-bg: $brand-bg-color-inverse;
-$tooltip-color: foreground-color($tooltip-bg);
+$tooltip-bg: var(--brand-bg-color-inverse);
+$tooltip-color: #fff; // TODO: theme foreground-color
 $tooltip-padding: 0 $space-4;
 $tooltip-shadow: none;
 $tooltip-highlight-color: $tooltip-bg;

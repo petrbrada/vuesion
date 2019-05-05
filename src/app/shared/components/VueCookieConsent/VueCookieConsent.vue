@@ -93,9 +93,9 @@ export default {
   justify-content: center;
   align-items: center;
   flex: 0 0 $space-52;
-  background: $brand-secondary;
+  background: var(--brand-secondary);
   cursor: pointer;
-  color: foreground-color($brand-secondary);
+  color:  #fff; // TODO: theme foreground-color
 
   &:hover {
     background-color: darken($brand-secondary, 5%);

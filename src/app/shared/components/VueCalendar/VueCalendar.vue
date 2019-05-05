@@ -520,7 +520,7 @@ export default {
     transition: background-color 0.15s;
 
     &:hover {
-      background-color: $brand-bg-color;
+      background-color: var(--brand-bg-color);
     }
   }
 
