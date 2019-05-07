@@ -9,4 +9,4 @@ $tab-group-header-item-padding: $space-8 $space-12;
 $tab-group-header-item-hover-bg: var(--brand-bg-color-variant);
 $tab-group-header-item-hover-color: var(--brand-text-color);
 
-$tab-item-transition: transform $brand-transition-duration linear;
+$tab-item-transition: transform var(--brand-transition-duration) linear;

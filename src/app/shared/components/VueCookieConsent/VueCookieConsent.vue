@@ -79,7 +79,7 @@ export default {
   background-color: $card-bg;
   width: 100%;
   bottom: 0;
-  transition: opacity $brand-transition-duration ease-in-out;
+  transition: opacity var(--brand-transition-duration) ease-in-out;
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -98,7 +98,7 @@ export default {
   color:  var(--button-color);
 
   &:hover {
-    background-color: darken($brand-secondary, 5%);
+    background-color: var(--brand-secondary);
   }
 }
 

@@ -8,6 +8,6 @@ $slider-handle-size: $space-32;
 $slider-handle-shadow: none;
 $slider-handle-bg: var(--brand-bg-color);
 $slider-handle-border: 2px solid var(--brand-secondary);
-$slider-handle-transition: box-shadow $brand-transition-duration / 2 ease-in-out;
-$slider-handle-active-shadow: 0 0 0 8px rgba(var(--brand-secondary), 0.5);
+$slider-handle-transition: box-shadow var(--brand-transition-duration) ease-in-out;
+$slider-handle-active-shadow: 0 0 0 8px var(--brand-secondary); // TODO
 $slider-values-margin: 0 0 40px -16px;

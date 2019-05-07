@@ -1,4 +1,4 @@
-:root.light{
+:root.light {
   /* Brand Variations */
   --brand-default: #{palette-color-level('grey', 70)};
   --brand-primary: #{palette-color-level('coral', 50)};
@@ -26,4 +26,15 @@
   /* Border Colors */
   --brand-border-color: #{palette-color-level('grey', 30)};
   --brand-border-color-inverse: #{palette-color-level('grey', 60)};
+  --brand-border-radius: #{$space-4};
+
+  /* Box Shadows */
+  --brand-shadow-sm: 0 1px 1px 0 rgba(18, 19, 21, 0.12);
+  --brand-shadow-md: 0 -1px 2px 0 rgba(18, 19, 21, 0.12), 0 2px 4px 0 rgba(18, 19, 21, 0.12);
+  --brand-shadow-lg: 0 0 4px 0 rgba(18, 19, 21, 0.12), 0 4px 12px 0 rgba(18, 19, 21, 0.12);
+
+  /* Animation Language */
+  --brand-transition-duration: 250ms;
+  --brand-easing-curve: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  --brand-fade-animation-transition: opacity var(--brand-transition-duration) var(--brand-easing-curve);
 }
