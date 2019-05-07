@@ -32,7 +32,7 @@
     </vue-cookie-consent>
 
     <vue-sidebar>
-      <vue-sidebar-group title="Thtmes">
+      <vue-sidebar-group title="Themes">
         <vue-sidebar-group-item>
           <vue-select name="theme" id="theme" :options="themes" @input="themeSwitch" :value="selectedTheme" />
         </vue-sidebar-group-item>

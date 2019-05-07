@@ -7,4 +7,4 @@ $autocomplete-border: 1px solid var(--brand-border-color);
 $autocomplete-item-padding: $space-8 $space-12;
 $autocomplete-item-border: 1px solid var(--brand-border-color);
 $autocomplete-item-selected-bg: var(--brand-bg-color-variant);
-$autocomplete-item-selected-color: #fff; // TODO: theme foreground-color
+$autocomplete-item-selected-color: var(--brand-text-color);

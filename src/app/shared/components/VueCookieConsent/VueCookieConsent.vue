@@ -95,7 +95,7 @@ export default {
   flex: 0 0 $space-52;
   background: var(--brand-secondary);
   cursor: pointer;
-  color:  #fff; // TODO: theme foreground-color
+  color:  var(--button-color);
 
   &:hover {
     background-color: darken($brand-secondary, 5%);

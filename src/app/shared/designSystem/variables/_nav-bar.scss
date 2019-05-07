@@ -1,9 +1,10 @@
-html.light {
-  --nav-bar-color: #{foreground-color(palette-color-level('coral', 50))};
-}
-html.dark {
-  --nav-bar-color: #{foreground-color(palette-color-level('coral', 50))};
-}
+@include add-theme-variable(
+  nav-bar-color,
+  (
+    'light': var(--brand-text-color),
+    'dark': var(--brand-text-color-inverse),
+  )
+);
 
 $nav-bar-bg: var(--brand-primary);
 $nav-bar-color: var(--nav-bar-color);

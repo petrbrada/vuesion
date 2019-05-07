@@ -14,6 +14,6 @@ $data-table-header-icon-margin: 0;
 
 $data-table-row-border: $data-table-no-results-border;
 $data-table-row-hover-bg: var(--brand-bg-color-variant);
-$data-table-row-hover-color: #fff; // TODO: theme foreground-color
+$data-table-row-hover-color: var(--brand-text-color);
 
 $data-table-row-column-padding: $space-8 $space-12;
